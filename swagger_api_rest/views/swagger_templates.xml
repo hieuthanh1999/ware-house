@@ -7,11 +7,11 @@
     <template id="openapi" name="OpenAPI">
         <t t-call="web.layout">
             <t t-set="head">
-                <t t-call-assets="smile_api_rest.assets_swagger" t-js="false"/>
+                <t t-call-assets="swagger_api_rest.assets_swagger" t-js="false"/>
                 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700" rel="stylesheet"/>
-                <link rel="icon" type="image/png" href="/smile_api_rest/static/lib/swagger-ui-3.38.0/favicon-32x32.png" sizes="32x32"/>
-                <link rel="icon" type="image/png" href="/smile_api_rest/static/lib/swagger-ui-3.38.0/favicon-16x16.png" sizes="16x16"/>
-                <t t-call-assets="smile_api_rest.assets_swagger" t-css="false"/>
+                <link rel="icon" type="image/png" href="/swagger_api_rest/static/lib/swagger-ui-3.38.0/favicon-32x32.png" sizes="32x32"/>
+                <link rel="icon" type="image/png" href="/swagger_api_rest/static/lib/swagger-ui-3.38.0/favicon-16x16.png" sizes="16x16"/>
+                <t t-call-assets="swagger_api_rest.assets_swagger" t-css="false"/>
                 <style>
                     html {
                         box-sizing: border-box;
