@@ -8,19 +8,6 @@ Documentation generate with Swagger OpenAPI Specification - Version 2.0 (https:/
 
 **Table of contents**
 
-.. contents::
-   :local:
-
-
-Requirements
-============
-
-There are no requirements to use this module.
-
-
-Usage
-=====
-
 Documentation URIs
 ------------------
 ============================================== ==============================================
