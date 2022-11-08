@@ -29,7 +29,7 @@ class RestApiDocs(Controller):
         version = request.env['api.rest.version'].search(domain, limit=1)
         if not version:
             return request.not_found()
-        return request.render("swagger_api_rest.openapi", {
+        return request.render("smile_api_rest.openapi", {
             'url_swagger': version.url_swagger
         })
 

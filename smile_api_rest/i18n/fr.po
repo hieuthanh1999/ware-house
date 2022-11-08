@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* swagger_api_rest
+# 	* smile_api_rest
 #
 msgid ""
 msgstr ""
@@ -15,26 +15,26 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: swagger_api_rest
-#: code:addons/swagger_api_rest/models/api_rest_path.py:0
+#. module: smile_api_rest
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (copie)"
 
-#. module: swagger_api_rest
-#: code:addons/swagger_api_rest/models/api_rest_path.py:0
+#. module: smile_api_rest
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
 #, python-format
 msgid "(Maximum: {})"
 msgstr ""
 
-#. module: swagger_api_rest
-#: code:addons/swagger_api_rest/models/api_rest_version.py:0
+#. module: smile_api_rest
+#: code:addons/smile_api_rest/models/api_rest_version.py:0
 #, python-format
 msgid "<b>Others API available: </b>"
 msgstr "<b>Autres API disponibles: </b>"
 
-#. module: swagger_api_rest
-#: model_terms:ir.ui.view,arch_db:swagger_api_rest.view_api_rest_version_form
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_version_form
 msgid ""
 "<span class=\"o_stat_text\">\n"
 "                                    Go to <br/>API Docs</span>"
@@ -42,155 +42,155 @@ msgstr ""
 "<span class=\"o_stat_text\">\n"
 "                                    Aller vers <br/>API Docs</span>"
 
-#. module: swagger_api_rest
-#: model_terms:ir.ui.view,arch_db:swagger_api_rest.view_api_rest_version_form
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_version_form
 msgid "API Informations"
 msgstr ""
 
-#. module: swagger_api_rest
-#: model:ir.module.category,name:swagger_api_rest.api_rest_category
-#: model:ir.ui.menu,name:swagger_api_rest.menu_api_rest
+#. module: smile_api_rest
+#: model:ir.module.category,name:smile_api_rest.api_rest_category
+#: model:ir.ui.menu,name:smile_api_rest.menu_api_rest
 msgid "API REST"
 msgstr ""
 
-#. module: swagger_api_rest
-#: model:res.groups,name:swagger_api_rest.configuration_manager
+#. module: smile_api_rest
+#: model:res.groups,name:smile_api_rest.configuration_manager
 msgid "API REST manager"
 msgstr "Gérer l'API REST"
 
-#. module: swagger_api_rest
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_path__version_id
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__version_id
 msgid "API Version"
 msgstr ""
 
-#. module: swagger_api_rest
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_path__active
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_version__active
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__active
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__active
 msgid "Active"
 msgstr "Actif"
 
-#. module: swagger_api_rest
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_version__active_log
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__active_log
 msgid "Active Log"
 msgstr "Activer les journaux"
 
-#. module: swagger_api_rest
-#: model_terms:ir.ui.view,arch_db:swagger_api_rest.view_api_rest_path_form
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
 msgid "Add domain to filter result, example: [('name', '=', 'Test')]"
 msgstr ""
 "Ajouter un domain pour filtrer les résultats: example: [('name', '=', "
 "'Test')]"
 
-#. module: swagger_api_rest
-#: model_terms:ir.ui.view,arch_db:swagger_api_rest.view_api_rest_path_form
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
 msgid "Additional Information"
 msgstr "Informations additionnelles"
 
-#. module: swagger_api_rest
-#: model:ir.model.fields,field_description:swagger_api_rest.field_res_users__api_rest_key
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_res_users__api_rest_key
 msgid "Api Rest Key"
 msgstr "Clé API Rest"
 
-#. module: swagger_api_rest
-#: model:ir.model.fields.selection,name:swagger_api_rest.selection__api_rest_function_parameter__type__array
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_function_parameter__type__array
 msgid "Array"
 msgstr "Tableau"
 
-#. module: swagger_api_rest
-#: model:ir.model.fields.selection,name:swagger_api_rest.selection__api_rest_function_parameter__type__boolean
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_function_parameter__type__boolean
 msgid "Boolean"
 msgstr "Booléen"
 
-#. module: swagger_api_rest
-#: model:ir.ui.menu,name:swagger_api_rest.menu_api_rest_configuration
+#. module: smile_api_rest
+#: model:ir.ui.menu,name:smile_api_rest.menu_api_rest_configuration
 msgid "Configuration"
 msgstr ""
 
-#. module: swagger_api_rest
-#: model:ir.model.fields.selection,name:swagger_api_rest.selection__api_rest_path__method__post
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_path__method__post
 msgid "Create"
 msgstr "Création"
 
-#. module: swagger_api_rest
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_field__create_uid
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_function_parameter__create_uid
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_log__create_uid
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_path__create_uid
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_tag__create_uid
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_version__create_uid
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__create_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__create_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__create_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__create_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_tag__create_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__create_uid
 msgid "Created by"
 msgstr "Créer par"
 
-#. module: swagger_api_rest
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_field__create_date
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_function_parameter__create_date
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_log__create_date
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_path__create_date
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_tag__create_date
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_version__create_date
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__create_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__create_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__create_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__create_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_tag__create_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__create_date
 msgid "Created on"
 msgstr "Créé le"
 
-#. module: swagger_api_rest
-#: model:ir.model.fields.selection,name:swagger_api_rest.selection__api_rest_path__method__custom
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_path__method__custom
 msgid "Custom function"
 msgstr "Fonction personnalisée"
 
-#. module: swagger_api_rest
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_field__default_value
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_function_parameter__default_value
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__default_value
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__default_value
 msgid "Default Value"
 msgstr "Valeur par défaut"
 
-#. module: swagger_api_rest
-#: model:ir.model.fields.selection,name:swagger_api_rest.selection__api_rest_path__method__delete
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_path__method__delete
 msgid "Delete"
 msgstr "Supression"
 
-#. module: swagger_api_rest
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_path__deprecated
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__deprecated
 msgid "Deprecated"
 msgstr "Obsolète"
 
-#. module: swagger_api_rest
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_field__description
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_function_parameter__description
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_path__description
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_tag__description
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_version__description
-#: model_terms:ir.ui.view,arch_db:swagger_api_rest.view_api_rest_path_form
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__description
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__description
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__description
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_tag__description
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__description
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
 msgid "Description"
 msgstr ""
 
-#. module: swagger_api_rest
-#: code:addons/swagger_api_rest/models/api_rest_path.py:0
+#. module: smile_api_rest
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
 #, python-format
 msgid "Description of the error"
 msgstr "Description de l'erreur"
 
-#. module: swagger_api_rest
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_field__display_name
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_function_parameter__display_name
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_log__display_name
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_path__display_name
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_tag__display_name
-#: model:ir.model.fields,field_description:swagger_api_rest.field_api_rest_version__display_name
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__display_name
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__display_name
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__display_name
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__display_name
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_tag__display_name
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__display_name
 msgid "Display Name"
 msgstr ""
 
-#. module: swagger_api_rest
-#: code:addons/swagger_api_rest/models/api_rest_path.py:0
+#. module: smile_api_rest
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
 #, python-format
 msgid "Error code"
 msgstr "Code d'erreur"
 
-#. module: swagger_api_rest
-#: code:addons/swagger_api_rest/models/api_rest_path.py:0
+#. module: smile_api_rest
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
 #, python-format
 msgid "Example : `[1, 'Example']`"
 msgstr "Exemple : `[1, 'Example']`"
 
-#. module: swagger_api_rest
+#. module: smile_api_rest
 #: code:addons/smile_api_rest/models/api_rest_path.py:0
 #, python-format
 msgid "Example: `YYYY-MM-DD HH:MM:SS`"
