@@ -1,5 +1,5 @@
 ==============
-Smile API Rest
+SWAGGER API Rest
 ==============
 
 This module provisions you with an API which allows you to access models through HTTP requests.
