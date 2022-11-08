@@ -6,7 +6,7 @@
 <odoo>
 
     <menuitem id="menu_api_rest" name="API REST" sequence="100" groups="swagger_api_rest.configuration_manager"
-              web_icon="swagger_api_rest,static/description/odoo_icon.png"/>
+              web_icon="swagger_api_rest,static/description/api.png"/>
 
     <record model="ir.ui.view" id="view_api_rest_version_tree">
         <field name="name">api.rest.version.tree</field>
